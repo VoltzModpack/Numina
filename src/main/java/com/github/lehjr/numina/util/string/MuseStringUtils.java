@@ -66,7 +66,7 @@ public class MuseStringUtils {
 
 */
     // milli, micro, etc.
-    public static final char[] smallSuffixes = {'m', 'μ', 'n', 'p', 'f', 'a', 'z', 'y'};
+    public static final char[] smallSuffixes = {'m', '\u00B5', 'n', 'p', 'f', 'a', 'z', 'y'};
     public static final char[] bigSuffixes = {'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'};
 
     public static String extractName(ResourceLocation resource) {
